@@ -1,0 +1,22 @@
+.headerTop
+    background-color: #000
+    padding: 6px 0
+
+.flexbox
+    display: flex
+    justify-content: flex-end
+
+.navbar
+    a
+        padding: 5px 7px
+        color: #afafaf
+        font-size: 14px
+        transition: 0.2s color
+        &:last-child
+            padding-right: 0
+        &:hover
+            color: #fff
+
+@media screen and ( max-width:  900px)
+    .headerTop
+        display: none

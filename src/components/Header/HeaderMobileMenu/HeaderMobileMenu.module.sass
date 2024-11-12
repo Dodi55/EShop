@@ -1,0 +1,32 @@
+.menu
+    display: none
+    position: fixed
+    padding: 20px 0
+    bottom: 0
+    width: 100%
+    box-shadow: 0 0 10px 0 #999999
+    
+.menuItems
+    display: flex
+    align-items: center
+    justify-content: space-between
+
+.active
+    .menuItem
+        opacity: 0
+    
+.menuItem
+    display: flex
+    align-items: center
+    flex-direction: column
+    color: var(--gold-color)
+    font-size: 12px
+    p
+        padding-top: 6px
+        color: #000
+
+
+@media screen and ( max-width: 520px )
+    .menu
+        display: block
+

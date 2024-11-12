@@ -1,10 +1,16 @@
-//import styled from './Header.module.sass';
+import { HeaderBottom } from './HeaderBottom/HeaderBottom';
+import { HeaderMain } from './HeaderMain/HeaderMain';
+import { HeaderMobileMenu } from './HeaderMobileMenu/HeaderMobileMenu';
+import { HeaderTop } from './HeaderTop/HeaderTop';
 
 export const Header = () => {
     return (
-        <div>
-            
-        </div>
+        <header>
+            <HeaderTop />
+            <HeaderMain />
+            <HeaderBottom />
+            <HeaderMobileMenu />
+        </header>
     );
 };
 
